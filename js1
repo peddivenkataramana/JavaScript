@@ -1,0 +1,18 @@
+var city = "New York";
+var temperature = 33;
+
+function weatherStatus(temperature) {
+  if (temperature > 25) {
+    return console.log("It's a warm day");
+  } else {
+    return console.log("It's a cool day.");
+  }
+}
+
+var forecast = ["Sunny", "Cloudy", "Rainy"];
+
+console.log(
+  `Weather in ${city}: Temperature is ${temperature}°C. ${weatherStatus(
+    temperature
+  )} Forecast: ${forecast.join(", ")}.`
+);
