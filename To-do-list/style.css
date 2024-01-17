@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  border-style: border-box;
+}
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.391);
+  border-radius: 1rem;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  display: grid;
+  justify-content: left;
+  max-width: 500px;
+}
+
+.head {
+  display: flex;
+  padding: 1rem;
+  gap: 10px;
+  font-size: 15px;
+  color: white;
+}
+img {
+  width: 45px;
+  height: 35px;
+}
+.text {
+  display: flex;
+  margin-left: 20px;
+}
+.text input {
+  width: 400px;
+  height: 50px;
+  border-radius: 50px 0 0 50px;
+  background-color: rgba(0, 0, 0, 0.403);
+  padding-left: 25px;
+  color: white;
+  font-size: 17px;
+  border: 1px solid white;
+}
+
+.text input::placeholder {
+  color: white;
+}
+.text button {
+  width: 120px;
+  height: 53px;
+  margin-left: -70px;
+  border-radius: 50px;
+  background-color: orangered;
+  font-size: 18px;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+/* .data {
+  display: flex;
+  margin: 30px 0 10px 30px;
+  padding: 0;
+}
+.data img {
+  width: 26px;
+  height: 26px;
+}
+.content {
+  width: 380px;
+  margin-left: 20px;
+  color: white;
+  font-size: 24px;
+}
+
+.data button {
+  background: transparent;
+  border-color: transparent;
+  width: 50px;
+  color: white;
+  cursor: pointer;
+  text-align: left;
+  font-weight: 900px;
+} */
+
+ul li {
+  list-style: none;
+  font-size: 23px;
+  margin-top: 30px;
+  padding: 12px 8px 12px 50px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  color: #fff;
+}
+
+ul li::before {
+  content: "";
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-image: url(images/unchecked.png);
+  background-size: cover;
+  background-position: center;
+  top: 12px;
+  left: 8px;
+}
+ul li.checked {
+  color: #fff;
+  text-decoration: line-through;
+}
+ul li.checked::before {
+  background-image: url(images/checked.png);
+}
+span {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  font-weight: 900;
+  color: orangered;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+ul li span:hover {
+  border: 2px solid rgba(255, 255, 255, 0.469);
+}
