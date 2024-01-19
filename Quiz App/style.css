@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  border-style: border-box;
+}
+body {
+  background-color: rgba(21, 77, 117, 0.872);
+}
+.card {
+  background-color: whitesmoke;
+  margin: auto;
+  max-width: 700px;
+  display: absolute;
+  margin-top: 200px;
+  border-radius: 0.7rem;
+  padding: 3rem;
+}
+h1 {
+  display: relative;
+  font-size: 45px;
+  border-bottom: solid 4px rgb(11, 57, 90);
+  padding-bottom: 20px;
+  width: 670px;
+}
+
+h2 {
+  display: absolute;
+  font-size: 35px;
+  margin: 30px 0;
+}
+.a {
+  font-size: 26px;
+  margin: 30px 30px 30px 0px;
+  padding: 10px;
+  border: solid 3px rgb(11, 57, 90);
+  border-radius: 0.7rem;
+  cursor: pointer;
+  width: 650px;
+  text-align: left;
+}
+
+#btn {
+  width: 130px;
+  height: 50px;
+  margin: 10px 30px 10px 270px;
+  background-color: rgb(11, 57, 90);
+  color: white;
+  font-size: 20px;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}

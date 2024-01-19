@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h1>Simple Quiz</h1>
+
+      <h2 id="qs">1.Which is largest animal in the world?</h2>
+      <div id="list">
+        <div id="list">
+          <button class="a" onclick="select('a')" id="a">Shark</button>
+          <button class="a" onclick="select('b')" id="b">Blue Whale</button>
+          <button class="a" onclick="select('c')" id="c">Elephant</button>
+          <button class="a" onclick="select('d')" id="d">Giraffe</button>
+        </div>
+        <button id="btn" onclick="showScore()">Next</button>
+      </div>
+      <div id="scoreSection" style="display: none">
+        <p id="score">0</p>
+        <button onclick="startOver()">Start Over</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
