@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(67, 0, 182);
+}
+h1 {
+  color: azure;
+  font-size: 70px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 250px 40px 66px 400px;
+  line-height: 6rem;
+}
+span {
+  color: rgb(249, 140, 7);
+  padding-bottom: 20px;
+  border-bottom: 0.4rem solid rgb(249, 140, 7);
+}
+
+input {
+  height: 78px;
+  width: 700px;
+  margin: 0px 40px 30px 400px;
+  color: black;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 12px;
+  border: 3px solid black;
+  padding-left: 20px;
+}
+
+.in {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.inp {
+  width: 34px;
+  height: 46px;
+  padding-top: 16px;
+  margin-left: -100px;
+}
+
+button {
+  margin: 10px 40px 30px 400px;
+  height: 80px;
+  width: 400px;
+  padding: 8px;
+  text-align: center;
+  background-color: rgb(249, 140, 7);
+  font-size: 35px;
+  border-radius: 12px;
+  border: 3px solid black;
+}
+
+.img {
+  text-align: left;
+  width: 35px;
+  height: auto;
+}
+
+.btn {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+p {
+  padding-top: 7px;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+}
