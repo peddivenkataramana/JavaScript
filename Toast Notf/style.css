@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  border-style: border-box;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+.btns {
+  width: 600px;
+  height: 200px;
+  margin: 300px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+}
+
+#toastbox {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.toast {
+  width: 400px;
+  height: 80px;
+  background: #fff;
+  font-weight: 500;
+  margin: 15px 0;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.toast i {
+  margin: 0 20px;
+  font-size: 35px;
+  color: green;
+}
+.toast.error i {
+  color: red;
+}
+
+.toast.invalid i {
+  color: orange;
+}
